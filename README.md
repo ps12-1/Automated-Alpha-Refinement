@@ -46,7 +46,7 @@ This framework addresses the challenges of manual alpha discovery by providing a
 ## Installation
 
 1. Clone this repository:
-git clone https://github.com/your-username/automated-alpha-discovery.git
+git clone https://github.com/ps12-1/Automated-Alpha-Refinement.git
 cd automated-alpha-discovery
 
 
