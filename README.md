@@ -49,12 +49,11 @@ This framework addresses the challenges of manual alpha discovery by providing a
 git clone https://github.com/your-username/automated-alpha-discovery.git
 cd automated-alpha-discovery
 
-text
+
 
 2. Install required dependencies:
 pip install pandas numpy requests openai tqdm
 
-text
 
 3. Set up your WorldQuant BRAIN credentials
 
@@ -81,7 +80,6 @@ Enhanced functionality built on top of the base WorldQuant functions:
 - **`get_fitness`**: Custom fitness calculation using the formula:
 Fitness = (sharpe² × returns) / ((turnover + 1) × drawdown)
 
-text
 - **`manage_turnover`**: Automated turnover reduction using various operators
 
 ### 3. Robustness Check
@@ -147,7 +145,6 @@ can be exploited to predict stock returns and create strategic trading opportuni
 
 generate_ai_alpha(data_fields, abstract)
 
-text
 
 ### 6. Evolutionary Algorithm Based Alpha Research
 
@@ -167,7 +164,6 @@ Genetic programming approach for alpha optimization:
 #### Fitness Function
 Fitness = (sharpe × returns) / (turnover × drawdown)
 
-text
 
 ### 7. Hierarchical Evolutionary Algorithm
 
@@ -200,7 +196,6 @@ Execute grid search
 stats_result = grid_search()
 final_df = display_final_df(stats_result)
 
-text
 
 ### Random Search with Pruning
 
@@ -211,14 +206,12 @@ Execute pruned search (24 simulations)
 pruned_result = pruned_search(24, 0, alpha_gen_list)
 final_df = display_final_df(pruned_result)
 
-text
 
 ### Evolutionary Algorithm
 
 Run genetic algorithm (2 nested operators, 10 population, 5 generations)
 genetic_algo(nested_flag=2, pop_size=10, generations=5)
 
-text
 
 ## Performance Metrics
 
@@ -250,7 +243,6 @@ The framework optimizes alphas based on WorldQuant BRAIN's standard metrics:
 
 ├── main.py # Main file
 ├── README.md # This file
-├── requirements.txt # Python dependencies
 ├── config/
 │ ├── brain_config.py # BRAIN API configuration
 │ └── openai_config.py # OpenAI API configuration
@@ -261,10 +253,7 @@ The framework optimizes alphas based on WorldQuant BRAIN's standard metrics:
 │ ├── search_algorithms/ # Parameter search methods
 │ ├── gpt_research/ # AI-powered generation
 │ └── evolutionary/ # Genetic algorithms
-└── tests/
-└── test_framework.py # Unit tests
 
-text
 
 ## Contributing
 
