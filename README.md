@@ -34,7 +34,6 @@ This framework addresses the challenges of manual alpha discovery by providing a
 - **WorldQuant BRAIN Integration**: Native API integration for seamless simulation and testing
 - **Robustness Testing**: Comprehensive validation mechanisms to ensure alpha stability
 - **Automated Quality Control**: Built-in filtering for alphas with maximum 2 failed test cases
-- **Production-Ready Architecture**: Scalable design suitable for institutional deployment
 
 ## Prerequisites
 
@@ -241,18 +240,18 @@ The framework optimizes alphas based on WorldQuant BRAIN's standard metrics:
 
 ## File Structure
 
-├── main.py # Main file
-├── README.md # This file
-├── config/
-│ ├── brain_config.py # BRAIN API configuration
-│ └── openai_config.py # OpenAI API configuration
-├── src/
-│ ├── preliminaries/ # Base helper functions
-│ ├── custom_helpers/ # Enhanced functionality
-│ ├── robustness/ # Validation framework
-│ ├── search_algorithms/ # Parameter search methods
-│ ├── gpt_research/ # AI-powered generation
-│ └── evolutionary/ # Genetic algorithms
+├── main.py # Main file ␣␣  
+├── README.md # This file␣␣  
+├── config/␣␣  
+│ ├── brain_config.py # BRAIN API configuration␣␣  
+│ └── openai_config.py # OpenAI API configuration␣␣  
+├── src/␣␣  
+│ ├── preliminaries/ # Base helper functions␣␣  
+│ ├── custom_helpers/ # Enhanced functionality␣␣  
+│ ├── robustness/ # Validation framework␣␣  
+│ ├── search_algorithms/ # Parameter search methods␣␣  
+│ ├── gpt_research/ # AI-powered generation␣␣  
+│ └── evolutionary/ # Genetic algorithms␣␣  
 
 
 ## Contributing
@@ -281,8 +280,8 @@ For questions or issues:
 
 - **WorldQuant** for providing the BRAIN platform and API access
 - **OpenAI** for GPT integration capabilities
-- The **quantitative finance community** for methodology insights
+
 
 ---
 
-**Note**: This framework is designed for research and educational purposes. Always validate results thoroughly before deploying in production trading environments.
+**Note**: This framework is designed for research and educational purposes. 
